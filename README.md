@@ -1,19 +1,24 @@
-﻿Interactive DFS Maze Generator & Solver
-An interactive Python application that visualizes the Depth-First Search (DFS) algorithm for both generating and solving mazes. This project was developed as part of a University assignment to demonstrate understanding of stack-based backtracking and kernel-level operation concepts.
+﻿🧩 DFS Maze Generator & Solver
+A real-time visualization of maze generation and pathfinding algorithms built with Python and Pygame. This project demonstrates the implementation of the Depth-First Search (DFS) algorithm to create "perfect" mazes and navigate through them.
 
-🚀 Project Overview
-This tool provides a real-time visualization of how a maze is "carved" from a solid grid and subsequently solved. It features a custom-designed "Executive" aesthetic UI with a dedicated information panel.
+🚀 Current Milestone: Grid Architecture & Logic Gates
+In this second phase of development, the project has evolved from a simple window to a functional coordinate system. The focus was on establishing the "skeleton" of the maze and defining the entry and exit parameters.
 
-Current Features (v0.1)
-Grid Infrastructure: Established a dual-array coordinate system (north and east walls) to represent the maze structure.
+Key Features Added:
+Dynamic Grid Data Structure: Implementation of 2D arrays (north and east) to manage wall states independently.
 
-Aesthetic UI: High-contrast, professional color palette suitable for college submissions.
+Randomized Start/End Points: Automated generation of entrance (Green) and exit (Yellow) nodes on the grid boundaries using the random library.
 
-Dynamic Rendering: Real-time grid drawing using the Pygame library.
+Passage Logic: Implementation of logic to remove outer wall segments, allowing "flow" into and out of the system.
 
-🛠️ Technologies Used
-Language: Python 3.x
+UI Framework: Enhanced rendering loop to support color-coded nodes and clean grid lines.
 
-Library: Pygame (Graphics and Event Handling)
+🛠️ Technical Details
+The Coordinate System
+The maze is structured as a grid of 20x20 cells. To represent walls efficiently without duplicating lines, we use two separate matrices:
 
-Algorithm: Depth-First Search (DFS) with Backtracking
+North Walls: An array representing horizontal barriers.
+
+East Walls: An array representing vertical barriers.
+
+This dual-matrix approach allows the generation algorithm to "carve" a path by simply switching a value from 1 (Wall) to 0 (Passage) without affecting the coordinates of the surrounding cells.
