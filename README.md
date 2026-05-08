@@ -1,7 +1,5 @@
 ﻿# DFS Maze Generator & Solver
 
----
-
 ## Project Overview
 
 This project implements a fully animated Maze Generator and Solver using Python and Pygame.
@@ -17,8 +15,6 @@ Once the maze is generated, another DFS-based backtracking solver automatically 
 
 The project also includes a Bonus Challenge Mode that introduces cycles into the maze by randomly removing extra walls.
 
----
-
 ## Features
 
 * Perfect maze generation using DFS
@@ -30,8 +26,6 @@ The project also includes a Bonus Challenge Mode that introduces cycles into the
 * Randomized start and end positions
 * Optional cycle-generation challenge mode
 * Clean algorithm visualization using Pygame
-
----
 
 ## Algorithms Used
 
@@ -53,8 +47,6 @@ This creates a Perfect Maze, meaning:
 * No isolated sections exist
 * Exactly one unique path exists between any two cells
 
----
-
 ### 2. Maze Solving — DFS Backtracking
 
 The maze solver uses another DFS-based traversal algorithm:
@@ -74,8 +66,6 @@ The maze solver uses another DFS-based traversal algorithm:
 | Red    | Current DFS Path            |
 | Blue   | Dead-End / Backtracked Cell |
 
----
-
 ## Maze Representation
 
 The maze uses two 2D arrays:
@@ -94,8 +84,6 @@ east[row][col]
 
 This structure efficiently represents all maze connections while avoiding redundant wall storage.
 
----
-
 ## Bonus Challenge Mode
 
 The project includes an optional challenge mode:
@@ -113,8 +101,6 @@ When enabled:
 
 This demonstrates how DFS behaves in graphs containing cycles.
 
----
-
 ## User Interface
 
 The application includes a live side panel displaying:
@@ -126,8 +112,6 @@ The application includes a live side panel displaying:
 * Challenge mode indicator
 
 The maze generation and solving processes are fully animated in real time.
-
----
 
 ## Installation
 
@@ -142,8 +126,6 @@ Install dependencies:
 pip install pygame
 ```
 
----
-
 ## Running the Project
 
 Run the program using:
@@ -152,20 +134,19 @@ Run the program using:
 python maze.py
 ```
 
----
-
-
 ## Loom Demonstration
 
 https://www.loom.com/share/b44d4b0ee58a4311bbddf2bbcac6cea5
 
----
-
 ## Author
 
-Developed as a Data Structures & Algorithms project using Python and Pygame.
+NAME: MULUALEM GEBREEGZIABHER
+ID No: UGR/2363/16
 
----
+Data Structures & Algorithms Project
+Implemented using Python and Pygame.
+
+Developed as a Data Structures & Algorithms project using Python and Pygame.
 
 ## Final Notes
 
