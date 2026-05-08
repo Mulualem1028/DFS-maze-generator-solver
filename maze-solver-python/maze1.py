@@ -10,8 +10,18 @@ WIDTH, HEIGHT = COLS * CELL_SIZE, ROWS * CELL_SIZE
 PANEL_WIDTH = 220
 WINDOW_WIDTH = WIDTH + PANEL_WIDTH
 
+# ---------------------------------------------------------
+# BONUS CHALLENGE: 
+# Set ENABLE_CYCLE_CHALLENGE = True to enable the bonus.
+# This removes random walls to create cycles (loops) in the 
+# maze, moving away from a "Perfect Maze" structure.
+# ---------------------------------------------------------
 # Toggle this for your Bonus demonstration
-ENABLE_CYCLE_CHALLENGE =True
+# Toggle to True to enable Bonus
+
+ENABLE_CYCLE_CHALLENGE =False
+
+# Chance of a wall being 'eaten'
 EXTRA_WALL_PROBABILITY = 0.05
 
 GEN_SPEED = 10
